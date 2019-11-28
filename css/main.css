@@ -25,6 +25,10 @@ body {
 #bg {
   transition: background-color 1s ease-in-out;
 }
+
+h1#logo {
+  font-family: 'Rubik Mono One', sans-serif;
+}
 .page {
   z-index: 10;
   position: absolute;
