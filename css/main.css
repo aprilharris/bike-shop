@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Chango&display=swap');
 
@@ -79,6 +79,7 @@ nav li {
   text-align: center;
   display: inline;
 }
+
 a {
   text-decoration: none;
   padding: 10px;
@@ -110,11 +111,26 @@ a:hover {
 }
 .leftEdge {
   position: absolute;
+  font-family: 'Didact Gothic', sans-serif;
   transform-origin: 0% 100%;
+  padding-top: 10px;
   top: 25vh;
   left: 25px;
   font-size: 0.8em;
   transform: rotateZ(90deg);
+}
+
+.leftEdge a {
+  font-family: 'Didact Gothic', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  font-size: inherit;
+  border-bottom: none;
+}
+.leftEdge a:hover {
+  text-decoration: none;
+  color: red;
+  background: none;
 }
 .rightEdge {
   position: absolute;
