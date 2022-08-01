@@ -1,5 +1,5 @@
 # bike-shop
-Fictional website for a local bike shop: 
+Concept website for a bike shop: 
 
 
 
